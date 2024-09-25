@@ -1,0 +1,12 @@
+{
+    "functions": {
+      "app/api/lead/route.ts": {
+        "memory": 3008,
+        "maxDuration": 300
+      },
+      "app/api/email/route.ts": {
+        "memory": 3008,
+        "maxDuration": 300
+      }
+    }
+  }
