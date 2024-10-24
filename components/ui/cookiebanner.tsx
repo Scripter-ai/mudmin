@@ -37,7 +37,7 @@ const CookieBanner = () => {
           <span className="text-2xl">🍪</span>
         </div>
         <div className="text-gray-700">
-          <p>We use cookies to enhance your browsing experience. By clicking 'Accept all,' you agree to the use of cookies.</p>
+          <p>We use cookies to enhance your browsing experience. By clicking &apos;Accept all,&apos; you agree to the use of cookies.</p>
         </div>
       </div>
 
