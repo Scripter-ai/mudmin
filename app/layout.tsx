@@ -4,7 +4,7 @@ import { Space_Grotesk } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react';
 import '@/app/globals.css'
 import { siteConfig } from '@/config/site'
-import CookieBanner from '@/components/ui/cookiebanner';
+import { Toaster } from 'sonner';
 
 const inter = Space_Grotesk({ subsets: ['latin'] })
 
@@ -35,6 +35,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         {children}
+        <Toaster richColors />
         <Analytics />
       </body>
     </html>

@@ -33,3 +33,8 @@ export interface MenubarProps {
   title: string;
   submenu?: { label: string; link: string }[];
 }
+
+export interface IntakeModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
